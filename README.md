@@ -2,4 +2,4 @@
 
 Google Calendar application
 
-Created by ## Thrifty kapila
+Created by **Thrifty kapila**
