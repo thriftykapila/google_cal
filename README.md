@@ -1,5 +1,3 @@
-# google_cal
+# Calendar app
 
-Google Calendar application
-
-Created by **Thrifty kapila**
+created by**Thrifty**
