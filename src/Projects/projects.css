@@ -1,0 +1,15 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cal{
+    cursor: pointer;
+    padding: 10px;
+    margin-block: 10px;
+    background-color: forestgreen;
+    color: azure;
+    border-radius: 8px;
+}

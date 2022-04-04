@@ -1,9 +1,12 @@
 import dayjs from "dayjs";
 import { useContext } from "react";
+import { useNavigate } from "react-router-dom";
 import logo from "../assets/logo.png";
 import GlobalContext from "../context/GlobalContext";
+import "./CalendarHeader.css";
 
 export const CalendarHeader = () => {
+  let navigate = useNavigate();
   const { monthIndex, setMonthIndex } = useContext(GlobalContext);
   const handlePrevMonth = () => {
     setMonthIndex(monthIndex - 1);
@@ -46,6 +49,9 @@ export const CalendarHeader = () => {
       <h2 className="ml-4 text-xl text-gray-500 font-bold">
         {dayjs(new Date(dayjs().year(), monthIndex)).format("MMMM YYYY")}
       </h2>
+      <button className="project ml-auto" onClick={() => navigate("/projects")}>
+        Back to Projects
+      </button>
     </header>
   );
 };
