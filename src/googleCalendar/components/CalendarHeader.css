@@ -1,0 +1,9 @@
+.project{
+    cursor: pointer;
+    padding: 10px;
+    margin-block: 10px;
+    background-color: forestgreen;
+    color: azure;
+    border-radius: 8px;
+    align-self: flex-end;
+}
